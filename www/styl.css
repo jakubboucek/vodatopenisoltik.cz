@@ -1,0 +1,116 @@
+@import url('reset.css'); /* CSS reset */
+
+/* main */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	height: 100%;
+	color: #000;
+	background: #fff url(gfx/bg.jpg) no-repeat center top;
+	}
+.wrapper {
+	position: relative;
+	}
+.center-block {
+	width: 960px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	}
+
+/* header */
+.header {
+	position: relative;
+	height: 140px;
+	}
+	.logo {
+		position: relative;
+		float: right;
+		margin-top: 20px;
+		}
+		.logo span {display: none}
+
+
+
+/* content */
+.content {
+	overflow: hidden;
+	}
+	.main {
+		position: relative;
+		width: 640px;
+		height: 300px;
+		float: right;
+		margin-top: 200px;
+		}
+		.box {
+			position: relative;
+			float: left;
+			width: 260px;
+			padding: 15px 20px;
+			margin-left: 20px;
+			background: url(gfx/section.png) no-repeat center top;
+			}
+	.contact {
+		position: absolute;
+		height: 100px;
+		right: 20px;
+		top: 0;
+		padding: 20px 0 20px 130px;
+		color: #fff;
+		line-height: 1.4em;
+		font-size: 0.9em;
+		background: url(gfx/tel.png) no-repeat left center;
+		overflow: hidden;
+		}
+		.contact a {color: #fff}
+		.contact h3 {
+			padding: 0 0 5px 0;
+			font-size: 2em;
+			}
+
+/* footer */
+.footer {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	padding: 40px 0;
+	text-indent: 20px;
+	}
+	.copyright {color: #000}
+				
+
+
+/* h */
+h1, h2, h3, h4, h5, h6 {
+	padding: 0 0 10px 0;
+	line-height: 1.25em;
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: #fff}
+h2, h3, h4, h5, h6 {font-size: 1.5em}
+
+/* */
+strong, b {font-weight: bold}
+small {font-size: 0.85em}
+i,em {font-style: italic}
+p {
+	margin: 0;
+	padding: 0;
+	}
+ul {list-style: disc}
+ol {list-style: decimal}
+ul, ol {margin-left: 20px;}
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	}
+	a:hover {text-decoration: none}
+
+.left,
+img[align="left"] {margin: 0 20px 10px 0; float: left}
+.right,
+img[align="right"] {margin: 0 0 10px 20px; float: right}
+
+/* End of file */
