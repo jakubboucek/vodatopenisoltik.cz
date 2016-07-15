@@ -1,2 +1,8 @@
 node_modules
 www/css
+
+/vendor/
+temp
+.htdeployment
+*.log
+deployment.php

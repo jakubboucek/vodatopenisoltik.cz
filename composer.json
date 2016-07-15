@@ -1,0 +1,12 @@
+{
+    "name": "jakubboucek/vodatopenisoltik.cz",
+    "require": {
+        "dg/ftp-deployment": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "Jakub Boucek",
+            "email": "pan@jakubboucek.cz"
+        }
+    ]
+}
