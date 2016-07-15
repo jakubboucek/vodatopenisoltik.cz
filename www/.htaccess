@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} !^vodatopenisoltik\.cz$
+RewriteRule (.*) http://vodatopenisoltik.cz$1 [R,L,QSA,NE]
