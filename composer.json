@@ -1,7 +1,6 @@
 {
     "name": "jakubboucek/vodatopenisoltik.cz",
     "require": {
-        "dg/ftp-deployment": "^2.5"
     },
     "authors": [
         {
