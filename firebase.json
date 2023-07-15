@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "package.json",
+      "Gruntfile.js",
+      "www/less/**"
+    ]
+  }
+}

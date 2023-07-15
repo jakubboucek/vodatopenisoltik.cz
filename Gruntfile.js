@@ -9,9 +9,9 @@ module.exports = function(grunt) {
 			},
 			main: {
 				files: {
-					"www/css/style.css": [
-						"www/less/reset.less",
-						"www/less/style.less",
+					"public/css/style.css": [
+						"public/less/reset.less",
+						"public/less/style.less",
 					]
 				}
 			},
